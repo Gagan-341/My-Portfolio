@@ -24,27 +24,27 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Personal Portfolio Website",
-      description: "Building a portfolio to showcase projects and skills using reusable React components with responsive design and deployment on GitHub Pages/Netlify",
+      description: "Built a portfolio to showcase projects and skills using reusable React components with responsive design and deployed on Netlify",
       tech: ["React.js", "Node.js", "CSS", "JavaScript"],
-      link: "#"
+      link: "https://gtk-portfolio.netlify.app/"
     },
     {
       title: "Interactive Smoky Cursor App",
       description: "Created a desktop app with a toggle-enabled smoky cursor trail effect using CSS animations and JavaScript for real-time interactivity",
       tech: ["Electron.js", "HTML", "CSS", "JavaScript"],
-      link: "#"
+      link: "https://github.com/Gagan-341/Animated_cursor"
     },
     {
       title: "Skin Cancer Classification",
       description: "Built a CNN model on the HAM10000 dataset for cancer type classification with preprocessing, imbalance handling, and regularization to improve accuracy",
       tech: ["Python", "CNN", "Deep Learning", "TensorFlow"],
-      link: "#"
+      link: "https://github.com/Gagan-341/Skin_cancer_classifier"
     },
     {
       title: "YouTube Video Popularity Prediction",
       description: "Developed a Random Forest regression model to predict YouTube video popularity using metadata, achieving improved prediction accuracy",
       tech: ["Python", "Linear Regression", "Random Forest"],
-      link: "#"
+      link: "https://github.com/Gagan-341/YT_videos_popularity_prediction"
     }
   ];
   
@@ -56,7 +56,7 @@ export default function Portfolio() {
   // ];
   const skills = [
     { name: "Languages & DB", items: ["C", "C++", "Python", "JavaScript", "HTML", "CSS", "MySQL", "MongoDB"], icon: Code },
-    { name: "Frameworks & Libraries", items: ["React.js", "Electron.js", "NumPy", "Pandas", "Matplotlib", "scikit-learn", "TensorFlow/Keras"], icon: Database },
+    { name: "Frameworks & Libraries", items: ["React.js", "Electron.js", "NumPy", "Pandas", "Matplotlib", "scikit-learn", "TensorFlow", "Keras","NLP" ], icon: Database },
     { name: "Fundamentals", items: ["Data Structures & Algorithms", "OOP", "Machine Learning", "Deep Learning"], icon: Palette },
     { name: "Tools & Platforms", items: ["VS Code", "PyCharm", "Anaconda", "Jupyter Notebook", "Tableau", "Power BI"], icon: Zap }
   ];
@@ -210,9 +210,12 @@ Eager to apply technical knowledge to build real-world applications and continuo
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project, idx) => (
-              <div 
+              <a 
                 key={idx}
-                className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 group"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 group cursor-pointer block"
               >
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-2xl font-bold group-hover:text-cyan-400 transition-colors">
@@ -231,7 +234,7 @@ Eager to apply technical knowledge to build real-world applications and continuo
                     </span>
                   ))}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>

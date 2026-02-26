@@ -28,23 +28,35 @@ export default function Portfolio() {
       tech: ["React.js", "Node.js", "CSS", "JavaScript"],
       link: "https://gtk-portfolio.netlify.app/"
     },
-    {
-      title: "Interactive Smoky Cursor App",
-      description: "Created a desktop app with a toggle-enabled smoky cursor trail effect using CSS animations and JavaScript for real-time interactivity",
-      tech: ["Electron.js", "HTML", "CSS", "JavaScript"],
-      link: "https://github.com/Gagan-341/Animated_cursor"
-    },
+    // {
+    //   title: "Interactive Smoky Cursor App",
+    //   description: "Created a desktop app with a toggle-enabled smoky cursor trail effect using CSS animations and JavaScript for real-time interactivity",
+    //   tech: ["Electron.js", "HTML", "CSS", "JavaScript"],
+    //   link: "https://github.com/Gagan-341/Animated_cursor"
+    // },
     {
       title: "Skin Cancer Classification",
       description: "Built a CNN model on the HAM10000 dataset for cancer type classification with preprocessing, imbalance handling, and regularization to improve accuracy",
-      tech: ["Python", "CNN", "Deep Learning", "TensorFlow"],
+      tech: ["Python", "CNN", "Deep Learning", "TensorFlow", "Flask"],
       link: "https://github.com/Gagan-341/Skin_cancer_classifier"
     },
     {
       title: "YouTube Video Popularity Prediction",
       description: "Developed a Random Forest regression model to predict YouTube video popularity using metadata, achieving improved prediction accuracy",
-      tech: ["Python", "Linear Regression", "Random Forest"],
+      tech: ["Python", "Random Forest", "Flask"],
       link: "https://github.com/Gagan-341/YT_videos_popularity_prediction"
+    },
+    {
+      title: "Machine Learning based performance monitoring and training assistant for Table tennis.",
+      description: "Developed a machine learning-based system to analyze player performance metrics and provide personalized training recommendations for table tennis players, improving performance tracking and decision-making.",
+      tech: ["Python", "CNN", "React + Vite", "Supabase"],
+      link: "https://github.com/Gagan-341/Machine-Learning-based-performance-monitoring-and-training-assistant-for-Table-tennis-NeuraSentinel-"
+    },
+    {
+      title: "Movie Review Sentiment Analysis",
+      description: "Developed a machine learning-based system to analyze movie reviews and classify sentiment Positive or Negative using NLP and Ada Boost Classifier techniques.",
+      tech: ["Python", "NLP", "Ada Boost", "Streamlit (UI)"],
+      link: "https://github.com/Gagan-341/Movie_Review_Sentiment_Analysis"
     }
   ];
   

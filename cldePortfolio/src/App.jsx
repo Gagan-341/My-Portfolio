@@ -25,7 +25,7 @@ export default function Portfolio() {
     {
       title: "Personal Portfolio Website",
       description: "Built a portfolio to showcase projects and skills using reusable React components with responsive design and deployed on Netlify",
-      tech: ["React.js", "Node.js", "CSS", "JavaScript"],
+      tech: ["React.js", "Node.js", "CSS", "Netlify"],
       link: "https://gtk-portfolio.netlify.app/"
     },
     // {
@@ -57,6 +57,12 @@ export default function Portfolio() {
       description: "Developed a machine learning-based system to analyze movie reviews and classify sentiment Positive or Negative using NLP and Ada Boost Classifier techniques.",
       tech: ["Python", "NLP", "Ada Boost", "Streamlit (UI)"],
       link: "https://github.com/Gagan-341/Movie_Review_Sentiment_Analysis"
+    },
+    {
+      title: "MindSpace: Full-Stack Mental Health Platform",
+      description: "Developed a full-stack mental health platform using modern web technologies to reduce digital distractions and help users stay focused, organized, and productive during work or study sessions.",
+      tech: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
+      link: "https://github.com/Gagan-341/MindSpace"
     }
   ];
   
@@ -68,9 +74,9 @@ export default function Portfolio() {
   // ];
   const skills = [
     { name: "Languages & DB", items: ["C", "C++", "Python", "JavaScript", "HTML", "CSS", "MySQL", "MongoDB"], icon: Code },
-    { name: "Frameworks & Libraries", items: ["React.js", "Electron.js", "NumPy", "Pandas", "Matplotlib", "scikit-learn", "TensorFlow", "Keras","NLP" ], icon: Database },
-    { name: "Fundamentals", items: ["Data Structures & Algorithms", "OOP", "Machine Learning", "Deep Learning"], icon: Palette },
-    { name: "Tools & Platforms", items: ["VS Code", "PyCharm", "Anaconda", "Jupyter Notebook", "Tableau", "Power BI"], icon: Zap }
+    { name: "Frameworks & Libraries", items: ["React.js", "NumPy", "Pandas", "Matplotlib", "scikit-learn", "TensorFlow", "Keras","NLP" ], icon: Database },
+    { name: "Fundamentals", items: ["OOP", "Machine Learning", "Deep Learning"], icon: Palette },
+    { name: "Tools & Platforms", items: ["VS Code", "Anaconda", "Jupyter Notebook", "Tableau", "Power BI", "Git & GitHub" ], icon: Zap }
   ];
 
   return (

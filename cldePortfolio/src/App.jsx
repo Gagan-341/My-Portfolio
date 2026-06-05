@@ -22,12 +22,12 @@ export default function Portfolio() {
   };
 
   const projects = [
-    {
-      title: "Personal Portfolio Website",
-      description: "Built a portfolio to showcase projects and skills using reusable React components with responsive design and deployed on Netlify",
-      tech: ["React.js", "Node.js", "CSS", "Netlify"],
-      link: "https://gtk-portfolio.netlify.app/"
-    },
+    // {
+    //   title: "Personal Portfolio Website",
+    //   description: "Built a portfolio to showcase projects and skills using reusable React components with responsive design and deployed on Netlify",
+    //   tech: ["React.js", "Node.js", "CSS", "Netlify"],
+    //   link: "https://gtk-portfolio.netlify.app/"
+    // },
     // {
     //   title: "Interactive Smoky Cursor App",
     //   description: "Created a desktop app with a toggle-enabled smoky cursor trail effect using CSS animations and JavaScript for real-time interactivity",
@@ -63,6 +63,12 @@ export default function Portfolio() {
       description: "Developed a full-stack mental health platform using modern web technologies to reduce digital distractions and help users stay focused, organized, and productive during work or study sessions.",
       tech: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
       link: "https://github.com/Gagan-341/MindSpace"
+    },
+    {
+    title: "Jan-Aushadhi Finder",
+    description: "Developed an Android application that helps users locate nearby Jan Aushadhi stores and access medicine-related information through a simple and user-friendly interface.",
+    tech: ["Kotlin", "Jetpack Compose", "Android Studio", "XML", "Google Maps API"],
+    link: "https://github.com/Gagan-341/Jan-Aushadhi-Finder"
     }
   ];
   
@@ -76,7 +82,7 @@ export default function Portfolio() {
     { name: "Languages & DB", items: ["C", "C++", "Python", "JavaScript", "HTML", "CSS", "MySQL", "MongoDB"], icon: Code },
     { name: "Frameworks & Libraries", items: ["React.js", "NumPy", "Pandas", "Matplotlib", "scikit-learn", "TensorFlow", "Keras","NLP" ], icon: Database },
     { name: "Fundamentals", items: ["OOP", "Machine Learning", "Deep Learning"], icon: Palette },
-    { name: "Tools & Platforms", items: ["VS Code", "Anaconda", "Jupyter Notebook", "Tableau", "Power BI", "Git & GitHub" ], icon: Zap }
+    { name: "Tools & Platforms", items: ["VS Code", "Anaconda", "Jupyter Notebook", "Tableau", "Power BI", "Git & GitHub", "Android Studio" ], icon: Zap }
   ];
 
   return (
@@ -146,7 +152,7 @@ export default function Portfolio() {
             Hi, I'm Gagan T kottary
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            AI & Web Development Enthusiast
+            AI & Software Development Enthusiast
           </p>
           <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
             
@@ -176,8 +182,8 @@ export default function Portfolio() {
           </h2>
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-purple-500/50 transition-all duration-300">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              Enthusiastic and motivated engineering student specializing in Artificial Intelligence and Web Development.
-Passionate about solving complex problems with hands-on experience in React.js, Machine Learning, and Deep Learning.
+              Enthusiastic and motivated engineering student specializing in Artificial Intelligence and Software Development.
+Passionate about solving complex problems with hands-on experience in Software Engineering, Machine Learning, and Deep Learning.
 Eager to apply technical knowledge to build real-world applications and continuously learn emerging technologies.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -265,7 +271,7 @@ Eager to apply technical knowledge to build real-world applications and continuo
             Get In Touch
           </h2>
           <p className="text-xl text-gray-300 mb-10">
-            I’m eager to collaborate on exciting projects, learn from others, and contribute to meaningful work in AI and web development.
+            I’m eager to collaborate on exciting projects, learn from others, and contribute to meaningful work in AI and Software development.
           </p>
           <div className="flex justify-center gap-6 mb-10">
             <a 
@@ -304,11 +310,11 @@ Eager to apply technical knowledge to build real-world applications and continuo
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 border-t border-slate-800">
+      {/* <footer className="py-8 px-4 border-t border-slate-800">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
           <p>&copy; 2025 Gagan T kottary. Built with React & Tailwind CSS</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
